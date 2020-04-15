@@ -1,0 +1,13 @@
+<apex:page standardController="Account">
+	<apex:form >
+		<apex:pageBlock ><!--底色板-->
+			<apex:commandButton action="{!save}" value="提交"></apex:commandButton>
+			<apex:pageBlockSection >
+				<apex:inputField value="{!Account.name}"></apex:inputField>
+				<apex:inputField value="{!Account.site}"></apex:inputField>
+				<apex:inputField value="{!Account.type}"></apex:inputField>
+				<apex:inputField value="{!Account.accountNumber}"></apex:inputField>
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+	</apex:form>
+</apex:page>

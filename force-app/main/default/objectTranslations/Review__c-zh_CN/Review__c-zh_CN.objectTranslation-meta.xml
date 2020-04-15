@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Review</value>
+    </caseValues>
+    <layouts>
+        <layout>Review 布局</layout>
+        <sections>
+            <label><!-- Assessment --></label>
+            <section>Assessment</section>
+        </sections>
+        <sections>
+            <label><!-- 自定义链接 --></label>
+            <section>自定义链接</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Ratng must be frome 1 to 5 --></errorMessage>
+        <name>Rating_Scale_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

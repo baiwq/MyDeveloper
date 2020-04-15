@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- External Orders --></label>
+        <name>External_Orders</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Omni-Channel Console --></label>
+        <name>OmniChannel_Console</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Recruiting（招聘） --></label>
+        <name>Recruiting</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- PS App Name --></label>
+        <name>rh2__PS_App_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PS Initialize Button --></label>
+        <name>rh2__PS_Initialize_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PS_SelectMaster_HelpURL --></label>
+        <name>rh2__PS_SelectMaster_HelpURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PT Logo URL --></label>
+        <name>rh2__PT_Logo_URL</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Quickstart --></label>
+        <name>Quickstart</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>c_130dbaf5_cf8f_4ae5_8897_cd3998f13c52</name>
+            </choices>
+            <choices>
+                <name>c_167c3b20_0109_45c2_88df_442b2e4bbae2</name>
+            </choices>
+            <choices>
+                <name>c_dc8c4fe8_612f_4903_ab3b_647e6622fc3d</name>
+            </choices>
+            <choices>
+                <name>c_d6e60c51_9c11_4490_aa11_90f3212fb2d8</name>
+            </choices>
+            <choices>
+                <name>c_aa62b646_3ba7_4250_afc0_7aebc89558f2</name>
+            </choices>
+            <choices>
+                <name>c_63039a9e_f9af_4b60_b16e_214d472ccd2d</name>
+            </choices>
+            <choices>
+                <name>c_6dfbfc28_3f0a_4953_b016_25ca909accd8</name>
+            </choices>
+            <choices>
+                <name>c_be240657_a8ea_4000_bcc4_d87841cbf185</name>
+            </choices>
+            <choices>
+                <name>c_cdc3cc89_f64d_4a04_b6b5_f57e53559e82</name>
+            </choices>
+            <fullName>customer_review_of_solar_panels-1</fullName>
+            <screens>
+                <fields>
+                    <name>q_8623c9ff_be89_4ee4_a2df_8aecf4ca7748</name>
+                </fields>
+                <name>p_07976d02_3877_4379_a01a_1a471bfa7d07</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>q_6ff6b649_c063_439d_a8f9_86da03787a71</name>
+                </fields>
+                <fields>
+                    <name>q_a08970d3_af38_403f_949c_177998f1d72c</name>
+                </fields>
+                <name>p_15a96b6e_7159_446f_8e30_e97a6e5cc875</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>q_68a5285c_2faa_4416_89fd_19406665ac7b</name>
+                </fields>
+                <fields>
+                    <name>q_7cc07c92_4931_4c64_93b2_b6675e503ad9</name>
+                </fields>
+                <name>p_c9d927d0_4c0c_4e05_b1d4_a0b5ebd8d77d</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>welcome_question</name>
+                </fields>
+                <name>welcome_page</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>q_a08970d3_af38_403f_949c_177998f1d72c_rank3</name>
+            </textTemplates>
+            <textTemplates>
+                <name>q_a08970d3_af38_403f_949c_177998f1d72c_rank2</name>
+            </textTemplates>
+            <textTemplates>
+                <name>q_a08970d3_af38_403f_949c_177998f1d72c_rank1</name>
+            </textTemplates>
+            <textTemplates>
+                <name>q_a08970d3_af38_403f_949c_177998f1d72c_rank0</name>
+            </textTemplates>
+            <textTemplates>
+                <name>welcome_question_dref_tt</name>
+            </textTemplates>
+            <textTemplates>
+                <name>welcome_question_lref_tt</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_review_of_solar_panels</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Change_Delivery_Address-1</fullName>
+            <screens>
+                <fields>
+                    <name>CheckStatusMessage</name>
+                </fields>
+                <fields>
+                    <name>DeliverTo</name>
+                </fields>
+                <fields>
+                    <name>Delivery_City</name>
+                </fields>
+                <fields>
+                    <name>Delivery_State</name>
+                </fields>
+                <fields>
+                    <name>Delivery_Zip</name>
+                </fields>
+                <fields>
+                    <name>Street_Address</name>
+                </fields>
+                <name>ChangeDeliveryAddress</name>
+            </screens>
+        </flows>
+        <fullName>Change_Delivery_Address</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <choiceText>bene</choiceText>
+                <name>c_1407a86a_8433_4712_9bef_130722b4cc9f</name>
+            </choices>
+            <choices>
+                <choiceText>4</choiceText>
+                <name>c_6c702bc7_3249_46f5_b51b_aa5067bf3eb9</name>
+            </choices>
+            <choices>
+                <choiceText>male</choiceText>
+                <name>c_8abddc12_dcb6_4043_9de1_0bacf11bd6fd</name>
+            </choices>
+            <choices>
+                <choiceText>3</choiceText>
+                <name>c_b31f9f1f_17dc_4636_8082_b5ef780011fa</name>
+            </choices>
+            <choices>
+                <choiceText>2</choiceText>
+                <name>c_5ad716d8_cf2b_4f82_a1da_da48c02f9596</name>
+            </choices>
+            <fullName>customer_satisfaction_survey-1</fullName>
+            <label>Soddisfazione del cliente</label>
+            <screens>
+                <fields>
+                    <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Hai commenti o feedback per noi?&lt;/b&gt;&lt;/p&gt;</fieldText>
+                    <name>q_1b5b2779_e489_48b3_bea5_50c14656bd28</name>
+                </fields>
+                <fields>
+                    <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Come giudichi il nostro servizio?&lt;/b&gt;&lt;/p&gt;</fieldText>
+                    <name>q_a3c3b6f1_5718_4338_8032_677864ed0fcd</name>
+                </fields>
+                <name>p_3b589902_051e_4d1b_9500_e152e128b636</name>
+                <pausedText>Sondaggio in pausa. Per riprendere da dove eri rimasto, aggiorna questa pagina o fai clic sul link nell&#39;invito al sondaggio.</pausedText>
+            </screens>
+            <screens>
+                <fields>
+                    <name>welcome_question</name>
+                </fields>
+                <name>welcome_page</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+                <text>&lt;p&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Grazie per aver partecipato!&lt;/b&gt;&lt;/p&gt;</text>
+            </textTemplates>
+            <textTemplates>
+                <name>q_1b5b2779_e489_48b3_bea5_50c14656bd28_rank2</name>
+                <text>sds</text>
+            </textTemplates>
+            <textTemplates>
+                <name>q_1b5b2779_e489_48b3_bea5_50c14656bd28_rank1</name>
+                <text>sds</text>
+            </textTemplates>
+            <textTemplates>
+                <name>q_1b5b2779_e489_48b3_bea5_50c14656bd28_rank0</name>
+                <text>sds</text>
+            </textTemplates>
+            <textTemplates>
+                <name>welcome_question_lref_tt</name>
+                <text>&lt;p&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Come giudichi il nostro servizio?&lt;/b&gt;&lt;/p&gt;</text>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction_survey</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Yes</name>
+            </choices>
+            <choices>
+                <name>True</name>
+            </choices>
+            <fullName>Change_Shipping_Method-1</fullName>
+            <screens>
+                <fields>
+                    <name>Greeting</name>
+                </fields>
+                <fields>
+                    <name>Shipping_Method</name>
+                </fields>
+                <name>ChangeShippingMethod</name>
+            </screens>
+        </flows>
+        <fullName>Change_Shipping_Method</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Verify_Caller-1</fullName>
+            <screens>
+                <fields>
+                    <name>Callback_Number</name>
+                </fields>
+                <fields>
+                    <name>Contact_Name</name>
+                </fields>
+                <fields>
+                    <name>Greeting</name>
+                </fields>
+                <name>Verify_Caller</name>
+            </screens>
+        </flows>
+        <fullName>Verify_Caller</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>net_promoter_score-1</fullName>
+            <screens>
+                <fields>
+                    <name>S_987a0482_3c42_4a5c_8fe2_cdc1a144d21a</name>
+                </fields>
+                <fields>
+                    <name>S_a36ca758_90f5_42d9_8318_bca094ad086a</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Survey_Invitation_on_Opportunity_Closure-1</fullName>
+        </flows>
+        <fullName>Survey_Invitation_on_Opportunity_Closure</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Wrap_Up-1</fullName>
+            <screens>
+                <fields>
+                    <name>CheckStatusMessage</name>
+                </fields>
+                <name>WrapUp</name>
+            </screens>
+        </flows>
+        <fullName>Wrap_Up</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>S_89bd3331_c944_444e_b269_6db314a78c4a</name>
+            </choices>
+            <choices>
+                <name>S_7f6e2899_da5c_473b_a998_bf3b78c84ae9</name>
+            </choices>
+            <choices>
+                <name>S_a2c372d4_8905_47ed_8379_ac9f4dd3cebe</name>
+            </choices>
+            <choices>
+                <name>S_5abf688d_0908_49bc_bd0c_b602e7c32814</name>
+            </choices>
+            <choices>
+                <name>S_c464aaae_e56a_4f25_8379_970db95420a0</name>
+            </choices>
+            <fullName>customer_satisfaction-1</fullName>
+            <screens>
+                <fields>
+                    <name>S_3917d89b_b08c_4e29_a892_03351c3fb99f</name>
+                </fields>
+                <fields>
+                    <name>S_d61bc092_d9c5_4246_b2a3_65fbb3a872f2</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Skills_based_routing-1</fullName>
+        </flows>
+        <fullName>Skills_based_routing</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Customer_Feedback-1</fullName>
+            <screens>
+                <fields>
+                    <name>enter_your_complaint</name>
+                </fields>
+                <name>Complaintbox</name>
+            </screens>
+        </flows>
+        <fullName>Customer_Feedback</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Offer_1_Time_Discount-1</fullName>
+            <screens>
+                <fields>
+                    <name>Callback_Number</name>
+                </fields>
+                <fields>
+                    <name>Contact_Name</name>
+                </fields>
+                <fields>
+                    <name>Greeting</name>
+                </fields>
+                <name>Verify_Caller</name>
+            </screens>
+        </flows>
+        <fullName>Offer_1_Time_Discount</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Offer_Gold_Service_Discount-1</fullName>
+            <screens>
+                <fields>
+                    <name>Callback_Number</name>
+                </fields>
+                <fields>
+                    <name>Contact_Name</name>
+                </fields>
+                <fields>
+                    <name>Greeting</name>
+                </fields>
+                <name>Verify_Caller</name>
+            </screens>
+        </flows>
+        <fullName>Offer_Gold_Service_Discount</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Order_Parts-1</fullName>
+            <screens>
+                <fields>
+                    <name>Company_Name</name>
+                </fields>
+                <fields>
+                    <name>Last_Name</name>
+                </fields>
+                <name>New_Lead</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Upload_file</name>
+                </fields>
+                <name>Upload_Lead_File</name>
+            </screens>
+        </flows>
+        <fullName>Order_Parts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Order_Replacement-1</fullName>
+            <screens>
+                <fields>
+                    <name>Company_Name</name>
+                </fields>
+                <fields>
+                    <name>Last_Name</name>
+                </fields>
+                <name>New_Lead</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Upload_file</name>
+                </fields>
+                <name>Upload_Lead_File</name>
+            </screens>
+        </flows>
+        <fullName>Order_Replacement</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Reschedule_Delivery-1</fullName>
+            <screens>
+                <fields>
+                    <name>CheckStatusMessage</name>
+                </fields>
+                <fields>
+                    <name>Delivery_Date</name>
+                </fields>
+                <name>RescheduleDelivery</name>
+            </screens>
+        </flows>
+        <fullName>Reschedule_Delivery</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Yes</name>
+            </choices>
+            <choices>
+                <name>True</name>
+            </choices>
+            <fullName>Set_Up_Delivery_Notification-1</fullName>
+            <screens>
+                <fields>
+                    <name>Email_Notification</name>
+                </fields>
+                <fields>
+                    <name>Greeting</name>
+                </fields>
+                <fields>
+                    <name>Notification_Date</name>
+                </fields>
+                <fields>
+                    <name>Notifywhen</name>
+                </fields>
+                <fields>
+                    <name>Text_Notification</name>
+                </fields>
+                <name>Set_Up_Delivery_Notification</name>
+            </screens>
+        </flows>
+        <fullName>Set_Up_Delivery_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Triage_and_Repair-1</fullName>
+            <screens>
+                <fields>
+                    <name>Company_Name</name>
+                </fields>
+                <fields>
+                    <name>Damage_size</name>
+                </fields>
+                <fields>
+                    <name>Damagetype</name>
+                </fields>
+                <fields>
+                    <name>Framedamage</name>
+                </fields>
+                <fields>
+                    <name>Last_Name</name>
+                </fields>
+                <fields>
+                    <name>triagetext</name>
+                </fields>
+                <name>New_Triage</name>
+            </screens>
+        </flows>
+        <fullName>Triage_and_Repair</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_OfflineCaseQuickAction_08h0o000000CbEh --></label>
+        <name>Snapins_Case_OfflineCaseQuickAction_08h0o000000CbEh</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h0o000000CbEh --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h0o000000CbEh</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h0o000000CbEm --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h0o000000CbEm</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h0o000000CbEh --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h0o000000CbEh</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h0o000000CbEm --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h0o000000CbEm</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- All Survey Question Responses --></description>
+        <label><!-- All Survey Question Responses --></label>
+        <name>All_Survey_Question_Responses</name>
+        <sections>
+            <label><!-- Survey Question Scores --></label>
+            <name>Survey Question Scores</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 包括合同行项目的服务合同 --></description>
+        <label><!-- 包括合同行项目的服务合同 --></label>
+        <name>CustomReportType</name>
+        <sections>
+            <label><!-- 合同行项目 --></label>
+            <name>合同行项目</name>
+        </sections>
+        <sections>
+            <label><!-- 服务合同 --></label>
+            <name>服务合同</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 包括权利的服务合同 --></description>
+        <label><!-- 包括权利的服务合同 --></label>
+        <name>CustomReportType1</name>
+        <sections>
+            <label><!-- 服务合同 --></label>
+            <name>服务合同</name>
+        </sections>
+        <sections>
+            <label><!-- 权利 --></label>
+            <name>权利</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 包括权利和联系人的客户 --></description>
+        <label><!-- 包括权利和联系人的客户 --></label>
+        <name>CustomReportType2</name>
+        <sections>
+            <label><!-- 客户 --></label>
+            <name>客户</name>
+        </sections>
+        <sections>
+            <label><!-- 权利 --></label>
+            <name>权利</name>
+        </sections>
+        <sections>
+            <label><!-- 联系人 --></label>
+            <name>联系人</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Omni-Channel Reports --></description>
+        <label><!-- Omni-Channel Reports --></label>
+        <name>Omni_Channel_Reports</name>
+        <sections>
+            <label><!-- Agent Work --></label>
+            <name>Agent Work</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Survey Question Scores --></description>
+        <label><!-- Survey Question Scores --></label>
+        <name>Survey_Question_Scores</name>
+        <sections>
+            <label><!-- Survey Question Scores --></label>
+            <name>Survey Question Scores</name>
+        </sections>
+    </reportTypes>
+</Translations>

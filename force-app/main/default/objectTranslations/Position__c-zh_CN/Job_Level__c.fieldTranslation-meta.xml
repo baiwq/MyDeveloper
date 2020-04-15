@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Job Level --></label>
+    <name>Job_Level__c</name>
+    <picklistValues>
+        <masterLabel>FN-100</masterLabel>
+        <translation><!-- FN-100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FN-200</masterLabel>
+        <translation><!-- FN-200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FN-300</masterLabel>
+        <translation><!-- FN-300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FN-400</masterLabel>
+        <translation><!-- FN-400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HR-100</masterLabel>
+        <translation><!-- HR-100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HR-200</masterLabel>
+        <translation><!-- HR-200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HR-300</masterLabel>
+        <translation><!-- HR-300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HR-400</masterLabel>
+        <translation><!-- HR-400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT-100</masterLabel>
+        <translation><!-- IT-100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT-200</masterLabel>
+        <translation><!-- IT-200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT-300</masterLabel>
+        <translation><!-- IT-300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT-400</masterLabel>
+        <translation><!-- IT-400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC-100</masterLabel>
+        <translation><!-- MC-100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC-200</masterLabel>
+        <translation><!-- MC-200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC-300</masterLabel>
+        <translation><!-- MC-300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC-400</masterLabel>
+        <translation><!-- MC-400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RO-100</masterLabel>
+        <translation><!-- RO-100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RO-200</masterLabel>
+        <translation><!-- RO-200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RO-300</masterLabel>
+        <translation><!-- RO-300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RO-400</masterLabel>
+        <translation><!-- RO-400 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WH-100</masterLabel>
+        <translation><!-- WH-100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WH-200</masterLabel>
+        <translation><!-- WH-200 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WH-300</masterLabel>
+        <translation><!-- WH-300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WH-400</masterLabel>
+        <translation><!-- WH-400 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

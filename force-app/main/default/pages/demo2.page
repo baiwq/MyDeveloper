@@ -1,0 +1,13 @@
+<apex:page controller="Acc">
+	<apex:form >
+		<apex:pageBlock >
+			
+			<apex:pageBlockSection >
+				<apex:inputText value="{!acct.name}"></apex:inputText><!-- 使用inputField标签 -->
+				<apex:inputText value="{!acct.site}"></apex:inputText>
+				<apex:inputText value="{!acct.accountNumber}"></apex:inputText>
+			</apex:pageBlockSection>
+			<apex:commandButton style="align-content: center" action="{!save}" value="提交"></apex:commandButton>
+		</apex:pageBlock>
+	</apex:form>
+</apex:page>

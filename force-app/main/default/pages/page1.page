@@ -1,0 +1,17 @@
+<apex:page controller="dataTableCon" id="thePage">
+	<apex:pageBlock ><!--底色板-->
+		<apex:pageBlockTable value="{!accounts}" var="account" id="theTable" rowClasses="odd,even" styleClass="tableClass">
+			<apex:facet name="caption">table caption</apex:facet> 
+			<apex:facet name="header">table header</apex:facet>
+			<apex:column >
+				<apex:facet name="header">Name </apex:facet>			
+				<apex:outputText value="{!account.name}"></apex:outputText>
+			</apex:column>
+
+			<apex:column >
+		            <apex:facet name="header">Owner</apex:facet>
+		            <apex:outputText value="{!account.type}"/>
+		    </apex:column>
+		</apex:pageBlockTable>
+	</apex:pageBlock>
+</apex:page>

@@ -1,0 +1,38 @@
+.THIS .slds-form-element__label:empty {
+    margin: 0;
+    display: none;
+}
+.THIS .AddLine
+{
+    width: 100%;
+    border-bottom: 2px solid #dddbda;
+    border-top: 2px solid #dddbda;
+    background-color: #f3f2f2;
+    padding: .5rem 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+}
+.THIS .scrollable {
+    height: 100%;
+}
+.THIS .slds-card__header {
+    height: 60px;
+    border-bottom: 2px solid #dddbda;
+    text-align: center;
+}
+.THIS .slds-card__footer {
+    background-color:#f3f2f2;
+    padding: .75rem 1rem;
+    font-size: .8125rem;
+    border-top: 2px solid #dddbda;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+.THIS .slds-card__body {
+    height: 80%;
+}
+.THIS .slds-form-element__label {
+    display: none;
+}

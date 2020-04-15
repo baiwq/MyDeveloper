@@ -1,0 +1,6 @@
+<apex:page >
+	<div>
+		<apex:image id="theImage" value="staticresources/dream.jpg" width="100" height="75" alt="梦想" >
+		</apex:image>
+	</div>
+</apex:page>

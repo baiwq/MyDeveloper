@@ -1,0 +1,11 @@
+<aura:component description="Uselookup" access="global" implements="force:hasRecordId,force:lightningQuickActionWithoutHeader">
+  <c:Lookup objectName="Contact"
+    field_API_text="Name"
+    field_API_val="Id"
+    limit="4"
+    field_API_search="Name"
+    lookupIcon="standard:user"
+    selItem="{!v.sales}"
+    flag="sales"
+/>
+</aura:component>

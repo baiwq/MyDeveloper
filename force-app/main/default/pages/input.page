@@ -1,0 +1,6 @@
+<apex:page controller="Input" docType="html-5.0">
+	<apex:form >
+		<apex:input value="{!inputValue}" id="theTextInput"/>
+		<apex:commandButton action="{!getString}" title="提交" value="提交"/>
+	</apex:form>
+</apex:page>

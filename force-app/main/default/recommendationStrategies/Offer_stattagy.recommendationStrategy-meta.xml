@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>Case</contextRecordType>
+    <description>Gold faith offer to customers impacted by shipping problem</description>
+    <label>Offer stategy</label>
+    <union>
+        <label>输出</label>
+        <name>Output_b5b6558b72864b0eafd6cbabff437f0c</name>
+    </union>
+</RecommendationStrategy>

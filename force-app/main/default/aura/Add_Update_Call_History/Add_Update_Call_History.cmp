@@ -1,0 +1,115 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickActionWithoutHeader" controller="Add_Update_Call_HistoryController">
+		<aura:html tag="style">
+        .slds-modal__container{
+            width: 100%;
+            max-width: 100rem;
+        }
+        .forceChatterLightningComponent,.forceChatterPublisherPresentationPanel,.container
+        {
+            height: 700px;
+            margin: -1rem -1rem -1rem -0.5rem;
+        }
+        .slds-card{
+            background: rgb(255, 255, 255);
+            border: 0;
+            box-shadow: none;
+            height: 100%;
+        }
+
+        .slds-modal_prompt .slds-modal__header {
+            border-bottom: 0;
+            width: 50%;
+            margin: 0 auto;
+        }
+        .slds-modal_prompt .slds-modal__content{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .slds-modal_prompt .slds-modal__footer {
+            border-top: 0;
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+    </aura:html> 
+    <!-- <ltng:require styles="{!$Resource.QuackAction}" /> -->
+	<aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+	<aura:attribute name="recordId" type="String" description="获取当前记录id"/>
+	<aura:attribute name="callList" type="List" description="通话历史记录的集合"/>
+	<lightning:spinner aura:id="mySpinner" variant="brand" />
+    <div style="width: 30%;text-align: center;">
+        <lightning:notificationsLibrary aura:id ="notifLib"/>
+    </div>
+	<lightning:card>
+		<aura:set attribute="title">
+            添加或者修改通话记录
+        </aura:set>
+        <aura:set attribute="footer">
+            <lightning:button label="取消" onclick="{!c.CancelFunction}"/>
+            <lightning:button variant="brand" label="保存" onclick="{!c.SaveFunction}"/>
+        </aura:set>
+        <div class="AddLine">
+            <lightning:button label="再添加一行" iconName="utility:add" onclick="{!c.AddLineFunction}"/>
+            <lightning:button label="删除一行" iconName="utility:delete" onclick="{!c.DeleteFunction}"/>
+        </div>
+        <ui:scrollerWrapper class="scrollable">
+        	<div class="slds-section slds-is-open" id="title_div" style="margin-right: 20px;margin-left: 20px;">
+                <!-- <h3 class="slds-section__title slds-theme_shade">
+                    <span class="slds-truncate slds-p-horizontal_small" title="Section Title">设置规则明细</span>
+                </h3> -->
+                <div aria-hidden="false" class="slds-section__content" id="expando-unique-id">
+                    <!-- 创建table的tr -->
+                    <div class="slds-table_edit_container slds-is-relative" style="width: 100%;display: inline-block;vertical-align:top;">
+                        <table class="slds-table slds-table_bordered slds-table_resizable-cols slds-table_fixed-layout slds-no-cell-focus slds-table_edit" role="grid">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th scope="col"  style="text-align: center;width: 5%;">
+                                        <div class="slds-th__action slds-th__action_form" style="margin:0 auto;text-align: center;">
+                                            <span class="slds-truncate">序号</span>
+                                        </div>
+                                    </th>
+                                    <th scope="col"  style="text-align: center;">
+                                        <div class="slds-th__action slds-th__action_form" style="margin:0 auto;text-align: center;">
+                                            <span class="slds-truncate">通话时间</span>
+                                        </div>
+                                    </th>
+                                    <th scope="col"  style="text-align: center;">
+                                        <div class="slds-th__action slds-th__action_form" style="margin:0 auto;text-align: center;">
+                                            <span class="slds-truncate">备注信息</span>
+                                        </div>
+                                    </th>                                 
+                                </tr>
+                            </thead>
+                            <!-- 循环table的td -->
+                            <tbody>
+                                <!-- aura:iteration 页面循环 -->
+                                <aura:iteration items="{!v.callList}" var="operator" indexVar="sNo">
+                                    <tr class="slds-hint-parent">
+                                        <td class="slds-cell-edit" role="gridcell"  style="text-align: center;">
+                                            <div style="margin:0 auto;width: 100%;text-align: center;">
+                                                {!sNo+1}
+                                            </div>
+                                        </td>
+                                        <td class="slds-cell-edit" role="gridcell"  style="text-align: center;">
+                                            <div style="margin:0 auto;width: 100%;text-align: center;">
+                                            	<ui:inputDate aura:id="expdate" class="field" value="{!operator.Call_Time__c}" displayDatePicker="true" />  
+                                            </div>
+                                        </td>
+                                        <td class="slds-cell-edit" role="gridcell"  style="text-align: center;">
+                                            <div style="margin:0 auto;width: 100%;text-align: center;">
+                                            	<lightning:textarea name="input1" value="{!operator.Remark__c}" /> 
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </aura:iteration>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+    	</ui:scrollerWrapper>
+	</lightning:card>
+</aura:component>

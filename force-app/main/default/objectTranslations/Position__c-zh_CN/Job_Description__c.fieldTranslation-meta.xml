@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- High-level description of the job and what its duties are --></help>
+    <label><!-- Job Description --></label>
+    <name>Job_Description__c</name>
+</CustomFieldTranslation>

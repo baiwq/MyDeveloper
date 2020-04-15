@@ -1,0 +1,19 @@
+<template>
+    <template if:true={showSpinner}>
+        <lightning-layout class="slds-m-top_medium slds-m-bottom_small">
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </lightning-layout>
+    </template>
+    <lightning-card title="新型冠状病毒全球排行榜" icon-name="standard:announcement">
+        <lightning-datatable
+        key-field="id"
+        data={data} show-row-number-column
+        columns={columns}
+        sorted-by={sortBy}
+        sorted-direction={sortDirection}
+        onsort={handleSortdata}
+        hide-checkbox-column=true>
+    </lightning-datatable>
+    </lightning-card>
+    <img src={FooterLogoUrl} style="display: block; margin: 0 auto;" >
+</template>

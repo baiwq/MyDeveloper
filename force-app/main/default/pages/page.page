@@ -1,0 +1,5 @@
+<apex:page renderAs="pdf">
+	<style> body { font-family: 'Arial Unicode MS'; } </style>
+    <h1>Congratulations</h1>
+    <p>This is your new PDF</p>
+</apex:page>

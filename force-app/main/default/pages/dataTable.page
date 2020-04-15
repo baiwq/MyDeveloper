@@ -1,0 +1,31 @@
+<apex:page >
+<table class="tableClass" id="thePage:theTable" border="0" cellpadding="0">
+	<colgroup span="2"></colgroup>
+	<caption>table caption</caption>
+	<thead>
+		<tr>
+			<td colspan="2" scope="colgroup">table header</td>
+
+		</tr>
+		<tr>
+			<td scope="col">Name</td>
+			<td scope="col">Owner</td>
+		</tr>
+		<td></td>
+	</thead>
+	<tfoot>
+		<tr>
+			<td scope="col">column footer</td>
+			<td scope="col">column footer</td>
+		</tr>
+		<tr>
+			<td colspan="2" scope="colgroup">table footer</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr></tr>
+		<tr></tr>
+		<tr></tr>
+	</tbody>
+</table>
+</apex:page>

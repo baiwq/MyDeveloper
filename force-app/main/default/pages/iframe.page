@@ -1,0 +1,4 @@
+<apex:page >
+	<apex:iframe src="http://www.salesforce.com" scrolling="true" id="theIframe"/>
+	<apex:iframe src="http://www.baidu.com" scrolling="true" id="thIframe"/>
+</apex:page>

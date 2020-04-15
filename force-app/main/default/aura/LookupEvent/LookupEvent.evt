@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="LookupEvent">
+    <aura:attribute name="flag" type="String" />
+    <aura:attribute name="SelectId" type="String" />
+</aura:event>
